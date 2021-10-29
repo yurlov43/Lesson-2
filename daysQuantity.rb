@@ -20,9 +20,9 @@ print "Specify the number of the month: "
 month = gets.chomp.to_i
 
 print "Specify the year: "
-yar = gets.chomp.to_i
+year = gets.chomp.to_i
 
-if yar % 4 == 0 && yar % 100 != 0 || yar % 400 == 0
+if year % 4 == 0 && year % 100 != 0 || year % 400 == 0
   months[:February] = 29
 end
 
